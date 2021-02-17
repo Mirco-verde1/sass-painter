@@ -1,0 +1,81 @@
+@import"nostylelist";
+@import "colors";
+$container-width:1200px;
+$margin:0 auto;
+@mixin list {
+  list-style: $no-style;
+  display: inline;
+  padding-left: 6px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+  .main-header{
+    width: 100%;
+    height: 90px;
+    background-color: #333;
+
+    &-container{
+      width: $container-width;
+      margin: $margin;
+
+      .main-header-top{
+      height: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+       ul{
+        padding-top: 20px;
+
+         li{
+          @include list;
+          color: $icon-color;
+          font-size: $style-size;
+
+          span{
+            padding-left: 10px;
+            color: #989898;
+          }
+        }
+      }
+    }
+
+     .main-header-bottom{
+      height: 50%;
+      width: 100%;
+      ul{
+        padding-top: 15px;
+        li{
+          @include list;
+          color: #fff;
+          font-size: $style-size;
+          padding-left: 45px;
+          img{
+            width: 90px;
+            height: 23px;
+          }
+        }
+      }
+    }
+   }
+  }
+
+  .main-background{
+    height: 460px;
+    width: 100%;
+    background-image: url("../img/hero8.jpg");
+    background-position: top;
+     .content{
+       height: 100%;
+       width: 70%;
+       border: 1px solid red;
+       margin-left: 26%;
+     }
+  }
