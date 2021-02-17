@@ -215,4 +215,21 @@
   background-position: center;
   background-size: cover;
   margin-top: 40px;
+  position: relative;
+}
+.sea-background i {
+  position: absolute;
+  font-size: 120px;
+  opacity: 0.6;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #b936b2;
+  padding: 40px;
+  background: #000;
+  border-radius: 100%;
+  padding-left: 65px;
+}
+.sea-background i:hover {
+  color: #fff;
 }
