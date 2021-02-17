@@ -28,6 +28,7 @@
   padding-left: 6px;
   color: #009cff;
   font-size: 15px;
+  padding: 20px;
 }
 .main-header-container .main-header-top ul li span {
   padding-left: 10px;
@@ -48,10 +49,15 @@
   color: #fff;
   font-size: 15px;
   padding-left: 45px;
+  padding: 20px;
 }
 .main-header-container .main-header-bottom ul li img {
   width: 90px;
   height: 23px;
+}
+.main-header-container .main-header-bottom ul li:hover {
+  background: #fff;
+  color: #000;
 }
 
 .main-background {
@@ -75,6 +81,7 @@
   color: #b936b2;
   font-size: 30px;
   font-style: oblique;
+  padding-right: 5px;
 }
 .main-background .content .content-left-title span {
   font-size: 30px;
@@ -99,10 +106,84 @@
   font-size: 15px;
   padding-right: 6px;
 }
+.main-background .content .content-left-button {
+  width: 250px;
+  height: 60px;
+  border: 2px solid #333;
+  position: relative;
+}
+.main-background .content .content-left-button .left {
+  padding: 10px 0 0 25px;
+  cursor: pointer;
+}
+.main-background .content .content-left-button .right i {
+  position: absolute;
+  right: 25px;
+  font-size: 30px;
+  top: 10px;
+}
 .main-background .content .content-right {
   width: 43%;
   height: 96%;
   background: #333;
   float: left;
   margin-top: 2%;
+}
+.main-background .content .content-right .left {
+  width: 50%;
+  padding: 52px 0 0 15px;
+  float: left;
+}
+.main-background .content .content-right .left ul li:first-child {
+  list-style: none;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.main-background .content .content-right .left ul li {
+  color: #999;
+  list-style: none;
+  padding-bottom: 20px;
+}
+.main-background .content .content-right .left .button {
+  background: #009cff;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  color: #fff;
+  cursor: pointer;
+}
+.main-background .content .content-right .left .button:hover {
+  background: #80dfff;
+}
+.main-background .content .content-right .right {
+  float: right;
+  padding: 20px 10px;
+}
+
+.grey-row {
+  width: 100%;
+  height: 60px;
+  background: #E6E6E6;
+}
+.grey-row-container {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.grey-row-container ul li:first-child {
+  border-bottom: 2px solid black;
+}
+.grey-row-container ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 6px;
+  font-size: 24px;
+  padding: 16px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.grey-row-container ul li:hover {
+  background: #e1e1d0;
 }
