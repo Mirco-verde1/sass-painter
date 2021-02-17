@@ -58,6 +58,7 @@
           color: $icon-color;
           font-size: $style-size;
           padding: 20px;
+          cursor: $finger;
 
           span{
             padding-left: 10px;
@@ -197,6 +198,7 @@
        }
      }
   }
+
   .grey-row{
     width: 100%;
     height: 60px;
@@ -222,4 +224,30 @@
         }
       }
     }
+  }
+
+  .main-digital{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/intro-top.jpg);
+    &-title{
+      @include container;
+      text-align: center;
+      padding-top: 100px;
+      h1{font-size: 38px;
+      padding-bottom: 15px;}
+      p{font-size: 19px;}
+
+
+
+    }
+  }
+
+  .sea-background{
+    background-image: url(../img/intro-bg.jpg);
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
   }
